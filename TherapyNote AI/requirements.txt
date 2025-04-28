@@ -1,0 +1,6 @@
+gradio
+openai
+reportlab
+python-docx
+python-dotenv
+pypdf2
