@@ -27,25 +27,25 @@ UI/UX Features
 
 Quick Start
 1. Clone the repository
-git clone https://github.com/yourusername/therapy-session-assistant.git
-cd therapy-session-assistant
+    git clone https://github.com/yourusername/therapy-session-assistant.git
+    cd therapy-session-assistant
 
 2. Install dependencies
-pip install -r requirements.txt
-
+    pip install -r requirements.txt
 If requirements.txt is missing, manually install:
-pip install gradio openai reportlab python-docx python-dotenv pypdf2
+    pip install gradio openai reportlab python-docx python-dotenv pypdf2
 
 3. Setup environment variables
-Create a .env file (already included) containing:
-OPENAI_API_KEY=your_openai_api_key_here
-Replace your_openai_api_key_here with your actual OpenAI API Key.
+    Create a .env file (already included) containing:
+    OPENAI_API_KEY=your_openai_api_key_here
+    Replace your_openai_api_key_here with your actual OpenAI API Key.
 
 4. Run the app
-python app.py
-The app will be available at http://127.0.0.1:7860/.
+    python app.py
+    The app will be available at http://127.0.0.1:7860/.
 
 Project Structure
+
 ├── app.py            # Main application (UI + logic)
 ├── assistant.db      # SQLite database for session history
 ├── .env              # Environment variables (OpenAI API Key)
